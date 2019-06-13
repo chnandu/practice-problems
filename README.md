@@ -1,4 +1,4 @@
 # practice-problems
-This is going to solve two problems for me:
-1) Learning GitHub
-2) Practicing the most commonly asked interview questions and less commonly asked interview questions, and adding the solutions to github.
+Created this repo for two reasons:
+1) Learning about GitHub
+2) Solving the most commonly asked interview questions and less commonly asked interview questions.
