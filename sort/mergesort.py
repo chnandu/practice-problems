@@ -40,11 +40,9 @@ def merge(ll, rl):
     res = []
     while len(ll) != 0 and len(rl) != 0:
         if ll[0] < rl[0]:
-            res.append(ll[0])
-            ll.pop(0)
+            res.append(ll.pop(0))
         else:
-            res.append(rl[0])
-            rl.pop(0)
+            res.append(rl.pop(0))
     if ll:
         res = res + ll
     if rl:
