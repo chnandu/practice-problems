@@ -28,3 +28,10 @@ conn.commit()
 print("Select data from data_store")
 cur.execute("SELECT * FROM data_store")
 print(cur.fetchall())
+
+try:
+    cur.execute("DELETE FROM t_data_store")
+except Exception as e:
+    print(dir(e), e.__dict__, e.message)
+cur.close()
+conn.close()
